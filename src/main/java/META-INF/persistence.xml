@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="maddesto">
+		<class>maddesto.entity.User</class>
+		<class>maddesto.entity.Role</class>
+		<class>maddesto.entity.Blog</class>
+		<class>maddesto.entity.Item</class>
+	</persistence-unit>
+</persistence>
