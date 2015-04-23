@@ -17,7 +17,6 @@ public class IndexController {
 	public String index(Model model){
 		model.addAttribute("items", itemService.getItems());
 		return "index";
-		
 	}
 
 }
